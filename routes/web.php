@@ -25,4 +25,10 @@ Route::get('/user', function () {
     return view('user');
 });
 
+Route::get('/mind', function () {
+    return view('partials.default');
+});
+
+
+
 require __DIR__.'/auth.php';
